@@ -1,5 +1,7 @@
 Samhita BG
+
 I attempted all 5 questions: System Information Display, File and Directory Manager, Log File Analyzer, Automated Backup Script, User Account Reporter 
+
 How to run:
 ./system_info.sh
 ./file_manager.sh
@@ -8,6 +10,7 @@ How to run:
 ./user_report.sh
 
 Sample Test cases:
+
 -For File and Directory Manager:
   list the files
   Create new directory and file and throw error if file already exists
@@ -17,6 +20,7 @@ Sample Test cases:
   count files and directories
   file permission viewer option, and throw error if file doesn't exist
   File copy option and throw error is source file doesn't exist.
+
 -For Log File Analyzer:
   Accept log filename as argument 
   Display total number of log entries  
@@ -27,6 +31,7 @@ Sample Test cases:
   Data range analysis
   Detect security threats(403)
   generate csv report
+
 -For Automated Backup Script:
   Source Selection: Ask user which directory to backup and if source directory doesnt exist, error
   Backup Location: Ask where to save backup, if destination directory does not exist, then use mkdir and create it
@@ -37,6 +42,7 @@ Sample Test cases:
   added old backup deletion(new 5)
   backup log file
   email rotation
+
 -For User Account Reporter:
   Total number of users 
   Total system users (UID < 1000) 
@@ -49,6 +55,7 @@ Sample Test cases:
   Users without passwords 
   Users with UID 0 (root privileges) 
   Inactive users (never logged in) 
+
 -For System Information Display:
   Display of the user details, as it accomodates all kinds of width using -15s etc.
 

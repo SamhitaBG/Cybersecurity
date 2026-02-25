@@ -1,0 +1,111 @@
+=== USER ACCOUNT REPORT ===
+
+=== USER STATISTICS ===
+Total Users: 58
+System Users (UID < 1000): 56
+Regular Users (UID >= 1000): 2
+Currently Logged In: 1
+
+=== REGULAR USER DETAILS ===
+nobody	65534	/nonexistent	/usr/sbin/nologin	Never
+kali	1000	/home/kali	/usr/bin/zsh	Never
+
+=== GROUP INFORMATION ===
+root: 0 members
+daemon: 0 members
+bin: 0 members
+sys: 0 members
+adm: 1 members
+tty: 0 members
+disk: 0 members
+lp: 0 members
+mail: 0 members
+news: 0 members
+uucp: 0 members
+man: 0 members
+proxy: 0 members
+kmem: 0 members
+dialout: 1 members
+fax: 0 members
+voice: 0 members
+cdrom: 1 members
+floppy: 1 members
+tape: 0 members
+sudo: 1 members
+audio: 1 members
+dip: 1 members
+www-data: 0 members
+backup: 0 members
+operator: 0 members
+list: 0 members
+irc: 0 members
+src: 0 members
+shadow: 0 members
+utmp: 0 members
+video: 1 members
+sasl: 0 members
+plugdev: 1 members
+staff: 0 members
+games: 0 members
+users: 1 members
+nogroup: 0 members
+systemd-journal: 0 members
+systemd-network: 0 members
+crontab: 0 members
+input: 0 members
+sgx: 0 members
+clock: 0 members
+kvm: 0 members
+render: 0 members
+netdev: 1 members
+systemd-timesync: 0 members
+messagebus: 0 members
+_ssh: 0 members
+scanner: 2 members
+tss: 0 members
+tcpdump: 0 members
+plocate: 0 members
+bluetooth: 1 members
+avahi: 0 members
+nm-openvpn: 0 members
+nm-openconnect: 0 members
+pipewire: 0 members
+lightdm: 0 members
+saned: 0 members
+polkitd: 0 members
+rtkit: 0 members
+colord: 0 members
+pcscd: 0 members
+kali-trusted: 0 members
+mysql: 0 members
+stunnel4: 1 members
+geoclue: 0 members
+Debian-snmp: 0 members
+sslh: 0 members
+ssl-cert: 1 members
+i2c: 0 members
+lpadmin: 1 members
+redsocks: 0 members
+kismet: 0 members
+_gophish: 0 members
+sambashare: 0 members
+redis: 1 members
+postgres: 0 members
+mosquitto: 0 members
+inetsim: 0 members
+_gvm: 0 members
+wireshark: 1 members
+kali: 0 members
+kaboxer: 1 members
+Debian-exim: 0 members
+
+=== SECURITY ALERTS ===
+Users with root privileges (UID 0):
+  - root
+
+Users without passwords:
+  All users have passwords set
+
+Inactive users (never logged in):
+  - nobody
+  - kali

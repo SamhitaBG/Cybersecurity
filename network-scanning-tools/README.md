@@ -51,23 +51,6 @@ Nmap Scanner
 Run: python3 nmap_scanner.py
 This program checks if Nmap is installed and allows the user to perform different types of scans such as host discovery, port scanning, service version detection, OS detection, and custom port range scans. It displays the results and provides an option to save them to a file.
 
-Example Outputs
 
-Ping Scanner
-Host: google.com
-Status: Reachable
-Average Time: 15 ms
-
-ARP Scanner
-IP Address MAC Address
-192.168.1.1 AA:BB:CC:DD:EE:FF
-192.168.1.10 11:22:33:44:55:66
-Total entries: 2
-
-Nmap Scanner
-PORT STATE SERVICE
-22/tcp open ssh
-80/tcp open http
-443/tcp open https
 
 
